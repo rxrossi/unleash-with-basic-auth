@@ -1,0 +1,22 @@
+{
+  "name": "Unleash",
+  "description": "A default setup of Unleash",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ],
+  "env": {
+    "PASSWORD": {
+      "description": "Password to login in the server with the default username",
+      "generator": "secret"
+    },
+    "SECRET": {
+      "description": "Used internally by unleash for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  }
+}
