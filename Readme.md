@@ -1,4 +1,4 @@
-# Unleash with basic auth
+# Unleash server with basic auth
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
  Deploy to Heroku also sets environment variables automatically
